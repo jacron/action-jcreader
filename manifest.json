@@ -1,0 +1,14 @@
+{
+  "name": "Action JCReader",
+  "description": "Complete client for JCReader",
+  "version": "0.1",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "images/reader.png",
+    "default_title": "JCReader",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

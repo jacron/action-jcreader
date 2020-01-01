@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Webtools for local dev</title>
+    <link href="popup.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="reader"></div>
+    <h2 id="host-name"></h2>
+    <div id="existing-reader-dialog" style="display:none">
+        <div class="controls">
+          <button id="reader-css">css</button>
+          <button id="reader-selector">selector</button>
+          <button id="reader-delete">X</button>
+          <button id="reader-rebuild">reload</button>
+        </div>
+        <div class="general-controls">
+          <span id="default-css">css default</span>
+          <span>&nbsp;|&nbsp;</span>
+          <span id="dark-css">css dark</span>
+        </div>
+    </div>
+    <div id="new-reader-dialog">
+      <div>Deze site bestaat nog niet.</div>
+      <div>Nieuwe site maken?</div>
+      <div class="new-controls">
+        <button id="new-answer-yes">Ja</button>
+        <button id="new-answer-no">Nee</button>
+      </div>
+    </div>
+    <script src="config.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

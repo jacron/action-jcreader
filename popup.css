@@ -1,0 +1,40 @@
+body {
+  margin: 5px 10px 10px;
+  background-color: #00485b;
+  color: #eee;
+}
+
+h2 {
+  color: #ccc;
+  text-align: center;
+}
+
+button {
+  background-color: #555555;
+  color: #eeffff;
+  border-radius: 5px;
+  padding: 4px 6px 6px;
+  font-size: 12px;
+  height: 26px;
+}
+#existing-reader-dialog,
+#new-reader-dialog {
+  width: 200px;
+  text-align: center;
+}
+.controls {
+  margin-bottom: 3px;
+}
+.general-controls span {
+  cursor: default;
+}
+.general-controls span:hover {
+  text-decoration: underline;
+}
+#existing-reader-dialog,
+#new-reader-dialog {
+  display: none;
+}
+.new-controls {
+  margin-top: 12px;
+}
