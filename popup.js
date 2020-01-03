@@ -69,8 +69,6 @@ function show(s, host, tabId) {
     if (s) {
         existing.style.display = 'block';
         setReaderActions(host, tabId);
-        const readerDialog = document.getElementById('reader-dialog');
-        readerDialog.style.display = 'block';
     } else {
         newview.style.display = 'block';
         setNewReaderActions(host);
