@@ -5,6 +5,9 @@
   "permissions": [
     "tabs"
   ],
+  "icons": {
+    "128": "images/reader white.png"
+  },
   "browser_action": {
     "default_icon": "images/reader white.png",
     "default_title": "JCReader",
